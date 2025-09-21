@@ -69,7 +69,9 @@ Baseado na estrutura do **Data Lake da Saúde do Rio de Janeiro**:
 ```bash
 git clone https://github.com/[seu-usuario]/no-show-predictor
 cd no-show-predictor
-pip install pandas numpy scikit-learn matplotlib seaborn
+
+# Instalar dependências
+pip install -r requirements.txt
 ```
 
 ### Execução
@@ -122,37 +124,6 @@ print(f"Probabilidade de No-Show: {probabilidade:.1%}")
 3. `distancia_unidade_km` - Distância da unidade
 4. `paciente_faixa_etaria` - Faixa etária
 5. `vaga_solicitada_tp` - Primeira vez vs retorno
-
-## 💡 Insights para Gestão
-
-### Recomendações Estratégicas
-- **Lembretes Automáticos**: SMS/WhatsApp 2-3 dias antes para pacientes de risco
-- **Overbooking Inteligente**: Baseado no score de risco individual
-- **Priorização**: Pacientes baixo risco em horários críticos
-- **Monitoramento**: Padrões por região e especialidade
-- **Campanhas**: Conscientização para grupos de alto risco
-
-### Casos de Uso
-- **Gestores**: Dashboard de previsão de demanda
-- **Reguladores**: Otimização automática de escalas
-- **Unidades**: Preparação proativa para demanda
-- **Pacientes**: Lembretes personalizados
-
-## 🔮 Roadmap - Próximos Passos
-
-### Para o Hackathon
-- [ ] **Integração Real**: Conexão com Data Lake da Saúde RJ
-- [ ] **API REST**: Endpoint para integração com sistemas
-- [ ] **Dashboard**: Interface em tempo real (Streamlit/Dash)
-- [ ] **Overbooking Automático**: Sistema de ajuste de escalas
-- [ ] **Notificações**: Integração WhatsApp/SMS
-
-### Funcionalidades Avançadas
-- [ ] **Deep Learning**: Redes neurais para padrões complexos
-- [ ] **Time Series**: Previsão de demanda sazonal
-- [ ] **NLP**: Análise de motivos de cancelamento
-- [ ] **Multimodalidade**: Integração com dados não estruturados
-- [ ] **RAG**: Sistema de consulta em linguagem natural
 
 ## 🤝 Contribuição
 
