@@ -228,6 +228,9 @@ streamlit run dashboard.py --server.address 0.0.0.0 --server.port 8501
 ![Predição Individual](imagens/pred.png)
 *Predição individual com base nos parâmetros fornecidos.*
 
+![Ampliação de Gráfico](imagens/amp.png)
+*Possibilidade de ampliação de gráficos para uma melhor análise.*
+
 ## 📱 Características do Dashboard
 
 ### ✅ **Interface Responsiva**
