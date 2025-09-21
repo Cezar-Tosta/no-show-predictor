@@ -131,29 +131,6 @@ print(f"Probabilidade de No-Show: {probabilidade:.1%}")
 4. `paciente_faixa_etaria` - Faixa etária
 5. `vaga_solicitada_tp` - Primeira vez vs retorno
 
-## 💡 Insights para Gestão
-
-### Recomendações Estratégicas
-- **Lembretes Automáticos**: SMS/WhatsApp 2-3 dias antes para pacientes de risco
-- **Overbooking Inteligente**: Baseado no score de risco individual
-- **Priorização**: Pacientes baixo risco em horários críticos
-- **Monitoramento**: Padrões por região e especialidade
-- **Campanhas**: Conscientização para grupos de alto risco
-
-### Casos de Uso
-- **Gestores**: Dashboard de previsão de demanda
-- **Reguladores**: Otimização automática de escalas
-- **Unidades**: Preparação proativa para demanda
-- **Pacientes**: Lembretes personalizados
-
-## 🔮 Próximos Passos
-
-- [ ] **Integração Real**: Conexão com Data Lake da Saúde RJ
-- [ ] **API REST**: Endpoint para integração com sistemas
-- [ ] **Dashboard**: Interface em tempo real (Streamlit/Dash)
-- [ ] **Deep Learning**: Redes neurais para padrões complexos
-- [ ] **RAG**: Sistema de consulta em linguagem natural
-
 ## 🤝 Contribuição
 
 Este projeto visa impacto social na **saúde pública brasileira**. Contribuições são bem-vindas!
@@ -170,26 +147,3 @@ Este projeto visa impacto social na **saúde pública brasileira**. Contribuiç�
 Este projeto está sob a licença **GPLv3** - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 Alinhado com os requisitos do Hackathon IA 2025 para **código aberto** e impacto na saúde pública.
-
-## 👨‍💻 Autor
-
-**[Seu Nome]**  
-- LinkedIn: [Seu LinkedIn]
-- GitHub: [Seu GitHub]
-- Email: [seu.email@exemplo.com]
-
----
-
-## 👨‍💻 Autor
-
-**[Seu Nome]**  
-- LinkedIn: [Seu LinkedIn]
-- GitHub: [Seu GitHub]
-- Email: [seu.email@exemplo.com]
-
-**Projeto desenvolvido para o Hackathon IA 2025 - Coppe/UFRJ**  
-*Aplicação de IA para otimização da regulação ambulatorial no SUS*
-
-## 📝 Licença
-
-Este projeto está sob a licença **GPLv3** - veja o arquivo [LICENSE](LICENSE) para detalhes.
