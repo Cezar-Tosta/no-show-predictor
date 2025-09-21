@@ -1,6 +1,6 @@
 # 🏥 Sistema de Previsão de No-Show - Regulação Ambulatorial
 
-> **Projeto para Hackathon IA 2025 - Coppe/UFRJ**  
+> **Projeto Simulado para Hackathon IA 2025 - Coppe/UFRJ**  
 > Aplicação de Inteligência Artificial para otimização da gestão de recursos em saúde pública
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
@@ -110,26 +110,13 @@ probabilidade = predictor.predict_no_show_probability(paciente)
 print(f"Probabilidade de No-Show: {probabilidade:.1%}")
 ```
 
-## 📈 Resultados e Performance
-
-### Métricas do Modelo
-- **AUC-ROC**: ~0.85
-- **Precisão**: ~78%
-- **Recall**: ~82%
-- **F1-Score**: ~80%
+## Exemplos
 
 ![Exemplo de Execução](imagens/prompt.png)
 *Exemplo da execução do sistema mostrando o processo de treinamento e resultados*
 
 ![Análises Visuais](imagens/grafico.png)
 *Visualizações geradas pelo sistema: Feature Importance, ROC Curve, Confusion Matrix e distribuição de probabilidades*
-
-### Features Mais Importantes
-1. `no_shows_anteriores` - Histórico de faltas
-2. `dias_antecedencia_agendamento` - Antecedência do agendamento
-3. `distancia_unidade_km` - Distância da unidade
-4. `paciente_faixa_etaria` - Faixa etária
-5. `vaga_solicitada_tp` - Primeira vez vs retorno
 
 ## 🤝 Contribuição
 
