@@ -147,3 +147,95 @@ Este projeto visa impacto social na **saúde pública brasileira**. Contribuiç�
 Este projeto está sob a licença **GPLv3** - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 Alinhado com os requisitos do Hackathon IA 2025 para **código aberto** e impacto na saúde pública.
+
+---
+
+# 🚀 Como Executar o Dashboard Web
+
+## 📋 Pré-requisitos
+- Python 3.8+
+- Código principal `no_show_predictor.py` no mesmo diretório
+
+## ⚡ Instalação Rápida
+
+### 1. Executar o dashboard
+```bash
+streamlit run dashboard.py
+```
+
+### 2. Acessar no navegador
+O Streamlit abrirá automaticamente em: `http://localhost:8501`
+
+## 🎯 Funcionalidades do Dashboard
+
+### 📊 **Dashboard Executivo**
+- **Métricas principais**: Total de consultas, no-shows, taxa geral
+- **Gráficos interativos**: Por região, faixa etária, procedimento
+- **Tendências temporais**: Evolução da taxa de no-show
+
+### 🔮 **Predição Individual**
+- **Interface intuitiva**: Formulário para dados do paciente
+- **Resultado visual**: Gauge com probabilidade de no-show
+- **Recomendações automáticas**: Baseadas no nível de risco
+
+### 📈 **Análises Detalhadas**
+- **Feature Importance**: Variáveis mais importantes do modelo
+- **Distribuições**: Análise exploratória dos dados
+- **Correlações**: Matrix de correlação entre variáveis
+
+### 🎯 **Insights Gerenciais**
+- **Análise por região**: Ranking de risco e recomendações
+- **Plano estratégico**: Curto, médio e longo prazo
+- **Métricas de impacto**: Economia e benefícios esperados
+
+## 🛠️ Solução de Problemas
+
+### ❌ Erro: "ModuleNotFoundError: No module named 'streamlit'"
+```bash
+pip install streamlit plotly
+```
+
+### ❌ Erro: "No module named 'no_show_predictor'"
+Certifique-se que o arquivo `no_show_predictor.py` está no mesmo diretório.
+
+### ❌ Erro de porta ocupada
+```bash
+streamlit run dashboard.py --server.port 8502
+```
+
+## 🎨 Personalização
+
+### Alterar tema
+Crie o arquivo `.streamlit/config.toml`:
+```toml
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+```
+
+### Configurar para produção
+```bash
+# Para deploy
+streamlit run dashboard.py --server.address 0.0.0.0 --server.port 8501
+```
+
+## Exemplos
+![Dashboard Executivo](imagens/executivo.png)
+*Dashboard gerado com o Streamlit. Menu lateral com opções personalizadas.*
+
+![Predição Individual](imagens/pred.png)
+*Predição individual com base nos parâmetros fornecidos.*
+
+## 📱 Características do Dashboard
+
+### ✅ **Interface Responsiva**
+- Layout adaptativo para desktop e mobile
+- Gráficos interativos com Plotly
+- Design moderno com cores personalizadas
+
+### ✅ **Performance Otimizada**
+- Cache de dados com `@st.cache_data`
+- Carregamento rápido do modelo
+- Processamento eficiente dos dados
