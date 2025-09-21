@@ -118,12 +118,41 @@ print(f"Probabilidade de No-Show: {probabilidade:.1%}")
 - **Recall**: ~82%
 - **F1-Score**: ~80%
 
+![Exemplo de Execução](imagens/prompt.png)
+*Exemplo da execução do sistema mostrando o processo de treinamento e resultados*
+
+![Análises Visuais](imagens/grafico.png)
+*Visualizações geradas pelo sistema: Feature Importance, ROC Curve, Confusion Matrix e distribuição de probabilidades*
+
 ### Features Mais Importantes
 1. `no_shows_anteriores` - Histórico de faltas
 2. `dias_antecedencia_agendamento` - Antecedência do agendamento
 3. `distancia_unidade_km` - Distância da unidade
 4. `paciente_faixa_etaria` - Faixa etária
 5. `vaga_solicitada_tp` - Primeira vez vs retorno
+
+## 💡 Insights para Gestão
+
+### Recomendações Estratégicas
+- **Lembretes Automáticos**: SMS/WhatsApp 2-3 dias antes para pacientes de risco
+- **Overbooking Inteligente**: Baseado no score de risco individual
+- **Priorização**: Pacientes baixo risco em horários críticos
+- **Monitoramento**: Padrões por região e especialidade
+- **Campanhas**: Conscientização para grupos de alto risco
+
+### Casos de Uso
+- **Gestores**: Dashboard de previsão de demanda
+- **Reguladores**: Otimização automática de escalas
+- **Unidades**: Preparação proativa para demanda
+- **Pacientes**: Lembretes personalizados
+
+## 🔮 Próximos Passos
+
+- [ ] **Integração Real**: Conexão com Data Lake da Saúde RJ
+- [ ] **API REST**: Endpoint para integração com sistemas
+- [ ] **Dashboard**: Interface em tempo real (Streamlit/Dash)
+- [ ] **Deep Learning**: Redes neurais para padrões complexos
+- [ ] **RAG**: Sistema de consulta em linguagem natural
 
 ## 🤝 Contribuição
 
@@ -142,27 +171,25 @@ Este projeto está sob a licença **GPLv3** - veja o arquivo [LICENSE](LICENSE) 
 
 Alinhado com os requisitos do Hackathon IA 2025 para **código aberto** e impacto na saúde pública.
 
----
+## 👨‍💻 Autor
 
-## 🏥 Sobre o Hackathon IA 2025
-
-**Evento**: Hackathon de IA aplicada à saúde pública  
-**Organizadores**: Incubadora Coppe/UFRJ + Cietec/USP  
-**Parceiros**: NVIDIA, LNCC, SMS-RJ  
-**Data**: 10-12 de outubro de 2025  
-**Local**: Porto Maravalley, Rio de Janeiro
-
-### Objetivo do Evento
-Fomentar soluções inovadoras para desafios da saúde pública através de tecnologias de IA, criando ferramentas que:
-- Aprimorem a qualidade do sistema de saúde
-- Otimizem o uso de recursos públicos  
-- Melhorem a experiência do usuário no atendimento
-
-**Recursos Disponíveis**: 
-- Data Lake da Saúde do Rio de Janeiro
-- Supercomputador Santos Dumont (LNCC)
-- Mentoria especializada em IA e saúde pública
+**[Seu Nome]**  
+- LinkedIn: [Seu LinkedIn]
+- GitHub: [Seu GitHub]
+- Email: [seu.email@exemplo.com]
 
 ---
 
-*"A inteligência artificial é uma ferramenta de transformação e será chave para o desenvolvimento econômico e social do Brasil."* - Hackathon IA 2025
+## 👨‍💻 Autor
+
+**[Seu Nome]**  
+- LinkedIn: [Seu LinkedIn]
+- GitHub: [Seu GitHub]
+- Email: [seu.email@exemplo.com]
+
+**Projeto desenvolvido para o Hackathon IA 2025 - Coppe/UFRJ**  
+*Aplicação de IA para otimização da regulação ambulatorial no SUS*
+
+## 📝 Licença
+
+Este projeto está sob a licença **GPLv3** - veja o arquivo [LICENSE](LICENSE) para detalhes.
